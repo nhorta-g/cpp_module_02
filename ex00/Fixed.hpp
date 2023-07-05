@@ -8,12 +8,10 @@ class Fixed {
 		Fixed (void);
 		Fixed (const Fixed &rhs);
 		~Fixed (void);
-		Fixed & operator = (const Fixed & rhs);
+		Fixed & operator = (const Fixed &rhs);
 	private:
 		int					_fixed_number;
 		static const int	bits = 8;
 };
-
-
 
 #endif

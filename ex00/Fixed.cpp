@@ -7,11 +7,13 @@ Fixed (void) {
 
 Fixed (const Fixed &rhs) {
     std::cout << "Copy contructor called" << std::endln;
-    return ;
+    return;
 }
 
 ~Fixed(void) {
     return;
 }
 
+Fixed &operator = (const Fixed &rhs) {
 
+}                              
