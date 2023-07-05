@@ -1,18 +1,19 @@
 #ifndef FIXED_HPP
 # define FIXED_HPP
 
-class FIXED_HPP {
+# include <iostream>
+
+class Fixed {
 	public:
-	Fixed_HPP(void);
-	Fixed_HPP(const Fixed_HPP &rhs);
-	~Fixed_HPP(void);
-	Fixed_HPP &operator = (const Fixed_HPP &rhs);
-}
+		Fixed (void);
+		Fixed (const Fixed &rhs);
+		~Fixed (void);
+		Fixed & operator = (const Fixed & rhs);
+	private:
+		int					_fixed_number;
+		static const int	bits = 8;
+};
+
+
 
 #endif
-
-void function_name(int name) {
-	corpo;
-}
-
-void function_name(int name);
